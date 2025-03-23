@@ -1,0 +1,41 @@
+body {
+    background: #97d4eb url("/images/sky-background.png") fixed repeat-x top;
+}
+
+header {
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    margin: 8rem 0 1rem 0;
+}
+
+h1 { font-size:4.0rem; }
+h2 { font-size:3.3rem; }
+h3 { font-size:2.6rem; }
+h4 { font-size:1.9rem; }
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flex-display {
+    display: flex;
+}
+.flex-center {
+    justify-content: center;
+}
+
+.city-display {
+    font-size: xx-large;
+    margin: 1rem 0 2rem 0;
+}
+
+.image-container {
+    justify-content: space-evenly;
+}
+.image-container img {
+    width: 50px;
+}
+/* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */

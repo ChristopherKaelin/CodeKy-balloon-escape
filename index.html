@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Ballon Escape</title>
+    </head>
+    <body>
+        <header> 
+            <h1>Ballon Escape</h1>
+            <p class="instructions">Guess the name of a city in the U.S. by entering a letter.</p>
+        </header>
+        <main>
+            <div class="flex-display flex-center" id="guess-display">
+                <input type="text" id="guess-input" placeholder="Guess a letter">
+                <button id="start-btn" onclick="checkLetter()">Guess</button>
+                <p id="messageDisplay"></p>
+            </div>
+            <div class="flex-display flex-center city-display" id="city-display">
+            </div>
+            <div class="flex-display image-container">
+                <img src="/images/1.png" id="ballon-1">
+                <img src="/images/2.png" id="ballon-2">
+                <img src="/images/3.png" id="ballon-3">
+                <img src="/images/4.png" id="ballon-4">
+                <img src="/images/5.png" id="ballon-5">
+                <img src="/images/6.png" id="ballon-6">
+            </div>
+        </main>
+    </body>
+    <script src=" javascript/game-play.js"></script>
+</html>
+    
