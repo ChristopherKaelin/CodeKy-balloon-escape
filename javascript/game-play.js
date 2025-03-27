@@ -19,7 +19,7 @@ function getRandomCity(cities) {
 function checkLetter() {
     const letterGuessed = document.getElementById("guess-input").value;
     document.getElementById("guess-input").value = "";
-    let cityDisplayCurr = document.getElementById("city-display").innerHTML;
+    let cityDisplayCurr = document.getElementById("city-display").textContent;
     let cityDisplayNew ="";
 
     for (let i=0; i<cityDisplayCurr.length; i++) {
@@ -35,11 +35,11 @@ function checkLetter() {
 
 function updateCityDisplay(guessStatus) {
     let cityDisplay = document.getElementById("city-display");
-    cityDisplay.innerHTML  = guessStatus;    
+    cityDisplay.textContent  = guessStatus;    
 }
 
 function updateMessage(message) {
-    document.getElementById("messageDisplay").innerHTML = message;
+    document.getElementById("messageDisplay").textContent = message;
 }
 
 const chosen_city = getRandomCity(US_Cities);

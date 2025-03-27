@@ -15,7 +15,7 @@ Balloon Escape is a fun, friendly word guessing game.  Incorrect guesses cause b
 - CSS
 - JavaScript
 
-## V1 Features => 2025-Mar-23
+## V1 Features (2025-Mar-23)
 - **Unique Theme**: Players lose balloons with incorrect guesses.
 - **U.S. Cities Word List**: The words to guess are names of major U.S. cities.
 - **Keyboard Input**: Players can guess letters by typing.
